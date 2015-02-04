@@ -12,10 +12,10 @@ http://pspdfkit.com/license.html</license>
 			<feature name="PSPDFKitPlugin">
 				<param name="ios-package" value="PSPDFKitPlugin"/>
 			</feature>
-		</config-file>
+		</config-file>	
 
-		<source-file src="PSPDFKitPlugin/src/ios/PSPDFKitPlugin.m"/>
-		<header-file src="PSPDFKitPlugin/src/ios/PSPDFKitPlugin.h"/>
+		<source-file src="src/ios/PSPDFKitPlugin.m"/>
+		<header-file src="src/ios/PSPDFKitPlugin.h"/>
 
 		<framework src="libsqlite3.dylib" />
 		<framework src="libxml2.dylib" />
@@ -37,6 +37,6 @@ http://pspdfkit.com/license.html</license>
 		<framework src="SystemConfiguration.framework" />
 		<framework src="Accelerate.framework" />
         
-        <framework src="PSPDFKitPlugin/src/ios/PSPDFKit.embeddedframework" custom="true" />
+        <framework src="src/ios/PSPDFKit.embeddedframework/PSPDFKit.framework" custom="true" />
 	</platform>
 </plugin>
